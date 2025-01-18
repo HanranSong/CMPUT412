@@ -14,3 +14,13 @@
 
    ```bash
    http://csc22919.local/
+
+## Turn Off or Reboot
+
+1. **Turn off**
+   ```bash
+   dts duckiebot shutdown csc22919
+
+2. **Reboot**
+   ```bash
+   dts duckiebot reboot csc22919
