@@ -15,6 +15,33 @@
    ```bash
    http://csc22919.local/
 
+3. **Connect through ssh**  
+   in terminal enter:
+
+   ```bash
+   ssh duckie@csc22919.local
+   ```
+
+   The default password is:
+
+   ```bash
+   quackquack
+
+## Common Commands
+
+1. **Make it move**
+
+   ```bash
+   dts duckiebot keyboard_control csc22919
+   ```
+
+2. **Make it see**
+
+   ```bash
+   dts start_gui_tools csc22919
+   rqt_image_view
+   ```
+
 ## Turn Off or Reboot
 
 1. **Turn off**
