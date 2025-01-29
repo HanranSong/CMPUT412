@@ -1,5 +1,13 @@
 # CMPUT412
 
+## About
+
+This is the repo where I'm going to keep track my progress for CMPUT 412 winter 2025. Each subfolder in the repo should represent an exercise. Here is my website for this course. It contains reports about all exercises.
+
+```bash
+https://sites.google.com/ualberta.ca/cmput412-hanransong/home
+```
+
 ## Steps to Set Up and Connect
 
 1. **Source dts**  
@@ -51,3 +59,15 @@
 2. **Reboot**
    ```bash
    dts duckiebot reboot csc22919
+
+## Some Useful Websites
+
+1. **The Duckiebot Operation Manual**
+
+   ```bash
+   https://docs.duckietown.com/daffy/opmanual-duckiebot/intro.html
+
+2. **Hands-on Robotics Development using Duckietown**
+
+   ```bash
+   https://docs-old.duckietown.org/daffy/duckietown-robotics-development/out/index.html
