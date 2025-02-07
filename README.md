@@ -50,6 +50,18 @@ https://sites.google.com/ualberta.ca/cmput412-hanransong/home
    rqt_image_view
    ```
 
+2. **Compile project**
+
+   ```bash
+   dts devel build -f
+   ```
+
+3. **Launch the node**
+
+   ```
+   dts devel run -R csc22919 -L NODE_NAME
+   ```
+
 ## Turn Off or Reboot
 
 1. **Turn off**
