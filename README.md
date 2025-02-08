@@ -62,6 +62,25 @@ https://sites.google.com/ualberta.ca/cmput412-hanransong/home
    dts devel run -R csc22919 -L NODE_NAME
    ```
 
+## Visulization
+
+1. **Record rosbag**   
+   In start_gui_tools
+   
+   ```bash
+   rosbag record /csc22919/wheels_driver_node/wheels_cmd /csc22919/left_wheel_encoder_node/tick /csc22919/right_wheel_encoder_node/tick
+   ```
+
+2. **Download rosbag**   
+   Outside start_gui_tools
+
+   ```bash
+   docker cp CONTAINER_ID:/code/catkin_ws/src/dt-gui-tools/BAG_NAME.bag /home/hanran/Documents/UA/Winter2025/SAVE_LOCATION/
+   ```
+
+3. **Visulize**  
+   Run the visulization script. Make sure you pass in the correct bag name.
+
 ## Turn Off or Reboot
 
 1. **Turn off**
